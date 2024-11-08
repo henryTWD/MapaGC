@@ -1,0 +1,3572 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3987d4246562c439fabcf308ec651e2a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3987d4246562c439fabcf308ec651e2a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3987d4246562c439fabcf308ec651e2a = L.map(
+                "map_3987d4246562c439fabcf308ec651e2a",
+                {
+                    center: [27.9617, -15.587],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_125effabac099454de356912be2cdcb1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_125effabac099454de356912be2cdcb1.addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var marker_5ffeb59f6113689cc4e92fbf53aabb56 = L.marker(
+                [27.756319253883202, -15.570369953425054],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_0dc214d48e3257df93719405903b0e81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5ffeb59f6113689cc4e92fbf53aabb56.setIcon(icon_0dc214d48e3257df93719405903b0e81);
+        
+    
+        var popup_4be983728ccae1977dbb668c240afc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8eb3f67262e8759fc3efab16081150a = $(`<div id="html_a8eb3f67262e8759fc3efab16081150a" style="width: 100.0%; height: 100.0%;">Bohemia Suites & Spa  </div>`)[0];
+                popup_4be983728ccae1977dbb668c240afc98.setContent(html_a8eb3f67262e8759fc3efab16081150a);
+            
+        
+
+        marker_5ffeb59f6113689cc4e92fbf53aabb56.bindPopup(popup_4be983728ccae1977dbb668c240afc98)
+        ;
+
+        
+    
+    
+            marker_5ffeb59f6113689cc4e92fbf53aabb56.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd432ff6a3e8141aa56e9e7f1162e299 = L.marker(
+                [27.825980330055682, -15.75749172026867],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_d8e1280a9b945f4a8ba170c741d28208 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_bd432ff6a3e8141aa56e9e7f1162e299.setIcon(icon_d8e1280a9b945f4a8ba170c741d28208);
+        
+    
+        var popup_cc64fd000a48b0e3e17abc207afd6528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_136258381e16c3f9d507afd34c05c4ad = $(`<div id="html_136258381e16c3f9d507afd34c05c4ad" style="width: 100.0%; height: 100.0%;">Radisson Blu Resort & Spa, Gran Canaria Mogan </div>`)[0];
+                popup_cc64fd000a48b0e3e17abc207afd6528.setContent(html_136258381e16c3f9d507afd34c05c4ad);
+            
+        
+
+        marker_bd432ff6a3e8141aa56e9e7f1162e299.bindPopup(popup_cc64fd000a48b0e3e17abc207afd6528)
+        ;
+
+        
+    
+    
+            marker_bd432ff6a3e8141aa56e9e7f1162e299.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ccd615afc43896b92250a5709b88594 = L.marker(
+                [28.121411744863043, -15.428284222119435],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_5296e858616ad586e20428eae3e3736d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_7ccd615afc43896b92250a5709b88594.setIcon(icon_5296e858616ad586e20428eae3e3736d);
+        
+    
+        var popup_96c30d3e562e427d7313add574c48897 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_488c86d3984d6aa77530f396ea07be1a = $(`<div id="html_488c86d3984d6aa77530f396ea07be1a" style="width: 100.0%; height: 100.0%;">Santa Catalina, a Royal Hideaway Hotel </div>`)[0];
+                popup_96c30d3e562e427d7313add574c48897.setContent(html_488c86d3984d6aa77530f396ea07be1a);
+            
+        
+
+        marker_7ccd615afc43896b92250a5709b88594.bindPopup(popup_96c30d3e562e427d7313add574c48897)
+        ;
+
+        
+    
+    
+            marker_7ccd615afc43896b92250a5709b88594.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd1d889a82356cb89128c692275b9898 = L.marker(
+                [27.776145680244824, -15.690389528599558],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_a0d248ed2556f7d4902a67812e89433b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_dd1d889a82356cb89128c692275b9898.setIcon(icon_a0d248ed2556f7d4902a67812e89433b);
+        
+    
+        var popup_f99f161a0333a97676bb7e0d0ffbb087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ec2814be35ea7c7d44bf87c659d9be3 = $(`<div id="html_5ec2814be35ea7c7d44bf87c659d9be3" style="width: 100.0%; height: 100.0%;">Radisson Blu Resort Gran Canaria </div>`)[0];
+                popup_f99f161a0333a97676bb7e0d0ffbb087.setContent(html_5ec2814be35ea7c7d44bf87c659d9be3);
+            
+        
+
+        marker_dd1d889a82356cb89128c692275b9898.bindPopup(popup_f99f161a0333a97676bb7e0d0ffbb087)
+        ;
+
+        
+    
+    
+            marker_dd1d889a82356cb89128c692275b9898.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e30a2a50e5dce315d7e7a5497ec18fb = L.marker(
+                [27.747137373806247, -15.576642177946887],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_00e89ca72136efb81e9b189fa3856091 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0e30a2a50e5dce315d7e7a5497ec18fb.setIcon(icon_00e89ca72136efb81e9b189fa3856091);
+        
+    
+        var popup_ba241d2eea77224482cd2729e87d2add = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_429bbc09850240773d540f0ea166e701 = $(`<div id="html_429bbc09850240773d540f0ea166e701" style="width: 100.0%; height: 100.0%;">Hotel Riu Palace Maspalomas </div>`)[0];
+                popup_ba241d2eea77224482cd2729e87d2add.setContent(html_429bbc09850240773d540f0ea166e701);
+            
+        
+
+        marker_0e30a2a50e5dce315d7e7a5497ec18fb.bindPopup(popup_ba241d2eea77224482cd2729e87d2add)
+        ;
+
+        
+    
+    
+            marker_0e30a2a50e5dce315d7e7a5497ec18fb.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2e9b7d142071ae7dfdefeeb3489a873 = L.marker(
+                [27.782405517601937, -15.650268550952362],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_48e16aa979336787d49d7bf44dd0d518 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c2e9b7d142071ae7dfdefeeb3489a873.setIcon(icon_48e16aa979336787d49d7bf44dd0d518);
+        
+    
+        var popup_cca08ed246a0245e9ff4239611f375e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299da76cc6dc129edd5f823dce7d08c1 = $(`<div id="html_299da76cc6dc129edd5f823dce7d08c1" style="width: 100.0%; height: 100.0%;">Salobre Hotel Resort & Serenity </div>`)[0];
+                popup_cca08ed246a0245e9ff4239611f375e3.setContent(html_299da76cc6dc129edd5f823dce7d08c1);
+            
+        
+
+        marker_c2e9b7d142071ae7dfdefeeb3489a873.bindPopup(popup_cca08ed246a0245e9ff4239611f375e3)
+        ;
+
+        
+    
+    
+            marker_c2e9b7d142071ae7dfdefeeb3489a873.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd8aa43c8325ceb3f0bccaf907bf01a9 = L.marker(
+                [27.73689392074741, -15.597278662602822],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_e88c9bc94d8fe4d482a7204532cbba7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_fd8aa43c8325ceb3f0bccaf907bf01a9.setIcon(icon_e88c9bc94d8fe4d482a7204532cbba7f);
+        
+    
+        var popup_b7288cfa7fe8a64f7cba9348a17aa0a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d44cde24268269c215c7b63057338f6c = $(`<div id="html_d44cde24268269c215c7b63057338f6c" style="width: 100.0%; height: 100.0%;">Hotel Riu Palace Oasis </div>`)[0];
+                popup_b7288cfa7fe8a64f7cba9348a17aa0a9.setContent(html_d44cde24268269c215c7b63057338f6c);
+            
+        
+
+        marker_fd8aa43c8325ceb3f0bccaf907bf01a9.bindPopup(popup_b7288cfa7fe8a64f7cba9348a17aa0a9)
+        ;
+
+        
+    
+    
+            marker_fd8aa43c8325ceb3f0bccaf907bf01a9.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91f75e9a17726ba2ba93511d07e33ac9 = L.marker(
+                [27.757570544410648, -15.581871150966386],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_b4f6e241a10f17ef1afc70c64efa62ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_91f75e9a17726ba2ba93511d07e33ac9.setIcon(icon_b4f6e241a10f17ef1afc70c64efa62ec);
+        
+    
+        var popup_8dd476fffa19b83f88788242604b6d1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4b9a1fbc40fad559ddb20e7b06c0028 = $(`<div id="html_a4b9a1fbc40fad559ddb20e7b06c0028" style="width: 100.0%; height: 100.0%;">Fahana   </div>`)[0];
+                popup_8dd476fffa19b83f88788242604b6d1f.setContent(html_a4b9a1fbc40fad559ddb20e7b06c0028);
+            
+        
+
+        marker_91f75e9a17726ba2ba93511d07e33ac9.bindPopup(popup_8dd476fffa19b83f88788242604b6d1f)
+        ;
+
+        
+    
+    
+            marker_91f75e9a17726ba2ba93511d07e33ac9.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b551b8d0466be6d8fed5494ed6e31e4c = L.marker(
+                [27.739824215632495, -15.597057593284202],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_1e559f169a534a99aeff783e22a737a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b551b8d0466be6d8fed5494ed6e31e4c.setIcon(icon_1e559f169a534a99aeff783e22a737a3);
+        
+    
+        var popup_e70e336162e90967461064ad56fae1f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ad64c2171a8e005b47e3f425aa6bec8 = $(`<div id="html_7ad64c2171a8e005b47e3f425aa6bec8" style="width: 100.0%; height: 100.0%;">Seaside Grand Hotel Residencia </div>`)[0];
+                popup_e70e336162e90967461064ad56fae1f8.setContent(html_7ad64c2171a8e005b47e3f425aa6bec8);
+            
+        
+
+        marker_b551b8d0466be6d8fed5494ed6e31e4c.bindPopup(popup_e70e336162e90967461064ad56fae1f8)
+        ;
+
+        
+    
+    
+            marker_b551b8d0466be6d8fed5494ed6e31e4c.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cf5d891c9cf6eb4e2d47b6bb7ee56c0 = L.marker(
+                [27.738002022870344, -15.599929477927088],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_7471e3ca919b7453bc72393a909068b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_6cf5d891c9cf6eb4e2d47b6bb7ee56c0.setIcon(icon_7471e3ca919b7453bc72393a909068b8);
+        
+    
+        var popup_9064a15f595225c47b9fe584dcf06e58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc8cde96d5723bab72096bef1892cce7 = $(`<div id="html_dc8cde96d5723bab72096bef1892cce7" style="width: 100.0%; height: 100.0%;">Unique Club at Lopesan Costa Meloneras Resort </div>`)[0];
+                popup_9064a15f595225c47b9fe584dcf06e58.setContent(html_dc8cde96d5723bab72096bef1892cce7);
+            
+        
+
+        marker_6cf5d891c9cf6eb4e2d47b6bb7ee56c0.bindPopup(popup_9064a15f595225c47b9fe584dcf06e58)
+        ;
+
+        
+    
+    
+            marker_6cf5d891c9cf6eb4e2d47b6bb7ee56c0.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_deaeb0b4161344f2c5ef3edc92c9f28b = L.marker(
+                [27.737525299621392, -15.595322879784295],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_50c2a1b66d33337853fa7042d123516b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_deaeb0b4161344f2c5ef3edc92c9f28b.setIcon(icon_50c2a1b66d33337853fa7042d123516b);
+        
+    
+        var popup_234f6014b30df7df359eefc4ba77c2b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ce46aea2248d56458f15510ded1540a = $(`<div id="html_8ce46aea2248d56458f15510ded1540a" style="width: 100.0%; height: 100.0%;">Seaside Palm Beach </div>`)[0];
+                popup_234f6014b30df7df359eefc4ba77c2b4.setContent(html_8ce46aea2248d56458f15510ded1540a);
+            
+        
+
+        marker_deaeb0b4161344f2c5ef3edc92c9f28b.bindPopup(popup_234f6014b30df7df359eefc4ba77c2b4)
+        ;
+
+        
+    
+    
+            marker_deaeb0b4161344f2c5ef3edc92c9f28b.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c454d2b49dbbaab9e32fb04d023c781e = L.marker(
+                [27.770773406431534, -15.542842037458888],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_21fb79e8a6e79e5dfeb7f1e3f0783934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c454d2b49dbbaab9e32fb04d023c781e.setIcon(icon_21fb79e8a6e79e5dfeb7f1e3f0783934);
+        
+    
+        var popup_82c68ba6ab433af8f5ed790ac5c2fe11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d8840a3f62be927d3944f8a036d061b = $(`<div id="html_8d8840a3f62be927d3944f8a036d061b" style="width: 100.0%; height: 100.0%;">Paradisus by Meliá Gran Canaria </div>`)[0];
+                popup_82c68ba6ab433af8f5ed790ac5c2fe11.setContent(html_8d8840a3f62be927d3944f8a036d061b);
+            
+        
+
+        marker_c454d2b49dbbaab9e32fb04d023c781e.bindPopup(popup_82c68ba6ab433af8f5ed790ac5c2fe11)
+        ;
+
+        
+    
+    
+            marker_c454d2b49dbbaab9e32fb04d023c781e.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9369e214474e5a036708c5805e602e0 = L.marker(
+                [28.100187176310115, -15.41517103746037],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_f3dfe22969e232566f0b58ad940fcc5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a9369e214474e5a036708c5805e602e0.setIcon(icon_f3dfe22969e232566f0b58ad940fcc5e);
+        
+    
+        var popup_f247301101b09d769b4886dd83f37aff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fe4c46d8cf5b947076b88ddc79f84c2 = $(`<div id="html_7fe4c46d8cf5b947076b88ddc79f84c2" style="width: 100.0%; height: 100.0%;">Suites 1478 </div>`)[0];
+                popup_f247301101b09d769b4886dd83f37aff.setContent(html_7fe4c46d8cf5b947076b88ddc79f84c2);
+            
+        
+
+        marker_a9369e214474e5a036708c5805e602e0.bindPopup(popup_f247301101b09d769b4886dd83f37aff)
+        ;
+
+        
+    
+    
+            marker_a9369e214474e5a036708c5805e602e0.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c6e323869c4013e9172bd3c5485a598 = L.marker(
+                [28.144899365032934, -15.430694379791058],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_4b03f0490ae6e718b651f2b5efc69e86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1c6e323869c4013e9172bd3c5485a598.setIcon(icon_4b03f0490ae6e718b651f2b5efc69e86);
+        
+    
+        var popup_0b0427e91bd249ff2c4c2fc1cd7489aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34cb5004d4b05b7a3e61610fc0a556ad = $(`<div id="html_34cb5004d4b05b7a3e61610fc0a556ad" style="width: 100.0%; height: 100.0%;">Hotel Cristina by Tigotan Las Palmas </div>`)[0];
+                popup_0b0427e91bd249ff2c4c2fc1cd7489aa.setContent(html_34cb5004d4b05b7a3e61610fc0a556ad);
+            
+        
+
+        marker_1c6e323869c4013e9172bd3c5485a598.bindPopup(popup_0b0427e91bd249ff2c4c2fc1cd7489aa)
+        ;
+
+        
+    
+    
+            marker_1c6e323869c4013e9172bd3c5485a598.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_548f38ddb4dd56bc253c74a4ce59d282 = L.marker(
+                [27.7469566322114, -15.610806393274792],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_4eb99eb3fc0b49c97b41a15be0df0c73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_548f38ddb4dd56bc253c74a4ce59d282.setIcon(icon_4eb99eb3fc0b49c97b41a15be0df0c73);
+        
+    
+        var popup_701bdd4881c71f5e7ab5d74cae7b2cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f32d697cefede73ab782dc9bf7e8d35c = $(`<div id="html_f32d697cefede73ab782dc9bf7e8d35c" style="width: 100.0%; height: 100.0%;">H10 Playa Meloneras Palace </div>`)[0];
+                popup_701bdd4881c71f5e7ab5d74cae7b2cf5.setContent(html_f32d697cefede73ab782dc9bf7e8d35c);
+            
+        
+
+        marker_548f38ddb4dd56bc253c74a4ce59d282.bindPopup(popup_701bdd4881c71f5e7ab5d74cae7b2cf5)
+        ;
+
+        
+    
+    
+            marker_548f38ddb4dd56bc253c74a4ce59d282.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f07a9ad21f51f573c41e3178bce3de17 = L.marker(
+                [27.761689171402903, -15.570227935611916],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c767eada1e5e2ccfba472dc82efcc13c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f07a9ad21f51f573c41e3178bce3de17.setIcon(icon_c767eada1e5e2ccfba472dc82efcc13c);
+        
+    
+        var popup_5bb6f2e66d7757e09af58e64526d8866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee3233deacc580efe8fd2987b3aef17b = $(`<div id="html_ee3233deacc580efe8fd2987b3aef17b" style="width: 100.0%; height: 100.0%;">Silvi Villas by TAM Resorts </div>`)[0];
+                popup_5bb6f2e66d7757e09af58e64526d8866.setContent(html_ee3233deacc580efe8fd2987b3aef17b);
+            
+        
+
+        marker_f07a9ad21f51f573c41e3178bce3de17.bindPopup(popup_5bb6f2e66d7757e09af58e64526d8866)
+        ;
+
+        
+    
+    
+            marker_f07a9ad21f51f573c41e3178bce3de17.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1224c6c37921e043a5163cc8f557e43 = L.marker(
+                [27.752512388206863, -15.600489762590279],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_43ff742ac95629189f593fe93118f467 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a1224c6c37921e043a5163cc8f557e43.setIcon(icon_43ff742ac95629189f593fe93118f467);
+        
+    
+        var popup_615d3cee618c2c5cf17fac9bc550f819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2885bc39b4a8f8a108958ff7823e4a7b = $(`<div id="html_2885bc39b4a8f8a108958ff7823e4a7b" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Los Calderones </div>`)[0];
+                popup_615d3cee618c2c5cf17fac9bc550f819.setContent(html_2885bc39b4a8f8a108958ff7823e4a7b);
+            
+        
+
+        marker_a1224c6c37921e043a5163cc8f557e43.bindPopup(popup_615d3cee618c2c5cf17fac9bc550f819)
+        ;
+
+        
+    
+    
+            marker_a1224c6c37921e043a5163cc8f557e43.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_202002056d41f0840f8877d49bd6033f = L.marker(
+                [27.756190709661215, -15.571482937466975],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_f01b2965b0510ebefb23653589830a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_202002056d41f0840f8877d49bd6033f.setIcon(icon_f01b2965b0510ebefb23653589830a52);
+        
+    
+        var popup_d390a0d4303b76ace9eeb6c30a285502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ea2087c714e95c603032ef39ce188f2 = $(`<div id="html_6ea2087c714e95c603032ef39ce188f2" style="width: 100.0%; height: 100.0%;">Hotel Riu Palace Palmeras </div>`)[0];
+                popup_d390a0d4303b76ace9eeb6c30a285502.setContent(html_6ea2087c714e95c603032ef39ce188f2);
+            
+        
+
+        marker_202002056d41f0840f8877d49bd6033f.bindPopup(popup_d390a0d4303b76ace9eeb6c30a285502)
+        ;
+
+        
+    
+    
+            marker_202002056d41f0840f8877d49bd6033f.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_080be851050c9ddfa7b3b6b85a34045e = L.marker(
+                [28.121248184222136, -15.42607322211729],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_77d4d74c8f3a435ee6c05056175df6a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_080be851050c9ddfa7b3b6b85a34045e.setIcon(icon_77d4d74c8f3a435ee6c05056175df6a2);
+        
+    
+        var popup_3309316a70515820975a765b0ca71d46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e81fa3d09e1905906cc8bd790ae06a7 = $(`<div id="html_4e81fa3d09e1905906cc8bd790ae06a7" style="width: 100.0%; height: 100.0%;">Occidental Las Palmas </div>`)[0];
+                popup_3309316a70515820975a765b0ca71d46.setContent(html_4e81fa3d09e1905906cc8bd790ae06a7);
+            
+        
+
+        marker_080be851050c9ddfa7b3b6b85a34045e.bindPopup(popup_3309316a70515820975a765b0ca71d46)
+        ;
+
+        
+    
+    
+            marker_080be851050c9ddfa7b3b6b85a34045e.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03eb47a437fcdaa59fdc9e6674e349ba = L.marker(
+                [28.14166865264352, -15.433817749099282],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_a39e65114bf4024e2099bf31f810ee05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_03eb47a437fcdaa59fdc9e6674e349ba.setIcon(icon_a39e65114bf4024e2099bf31f810ee05);
+        
+    
+        var popup_80ebd31f026ec25451e0bf11b66a8aac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34ed62baa016596b40833dfba58cd4d9 = $(`<div id="html_34ed62baa016596b40833dfba58cd4d9" style="width: 100.0%; height: 100.0%;">Hotel Concorde </div>`)[0];
+                popup_80ebd31f026ec25451e0bf11b66a8aac.setContent(html_34ed62baa016596b40833dfba58cd4d9);
+            
+        
+
+        marker_03eb47a437fcdaa59fdc9e6674e349ba.bindPopup(popup_80ebd31f026ec25451e0bf11b66a8aac)
+        ;
+
+        
+    
+    
+            marker_03eb47a437fcdaa59fdc9e6674e349ba.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2ed22ecb4431081691a1036f0d3ce54 = L.marker(
+                [27.79256124125034, -15.722722679787427],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_fa70d17d7c3e6c570fd8322033671f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e2ed22ecb4431081691a1036f0d3ce54.setIcon(icon_fa70d17d7c3e6c570fd8322033671f9f);
+        
+    
+        var popup_328ce06c05ffd655338489bf1e128ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f29e4458f0a9710e76ffb6293ea362b = $(`<div id="html_3f29e4458f0a9710e76ffb6293ea362b" style="width: 100.0%; height: 100.0%;">Gloria Palace Royal Hotel & Spa </div>`)[0];
+                popup_328ce06c05ffd655338489bf1e128ca7.setContent(html_3f29e4458f0a9710e76ffb6293ea362b);
+            
+        
+
+        marker_e2ed22ecb4431081691a1036f0d3ce54.bindPopup(popup_328ce06c05ffd655338489bf1e128ca7)
+        ;
+
+        
+    
+    
+            marker_e2ed22ecb4431081691a1036f0d3ce54.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d548927791da63b730c7e9f8b22df8b = L.marker(
+                [27.751740484378164, -15.585596679780334],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_72ee782f8fd48025e2519bab820482b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4d548927791da63b730c7e9f8b22df8b.setIcon(icon_72ee782f8fd48025e2519bab820482b2);
+        
+    
+        var popup_978b8a53029344ddfeb3881cd943e8e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0beefe137f66ffc14e70e6844a8ce81 = $(`<div id="html_a0beefe137f66ffc14e70e6844a8ce81" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Dunagolf Suites </div>`)[0];
+                popup_978b8a53029344ddfeb3881cd943e8e3.setContent(html_a0beefe137f66ffc14e70e6844a8ce81);
+            
+        
+
+        marker_4d548927791da63b730c7e9f8b22df8b.bindPopup(popup_978b8a53029344ddfeb3881cd943e8e3)
+        ;
+
+        
+    
+    
+            marker_4d548927791da63b730c7e9f8b22df8b.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c089e51e3c93c7d9299afd577cef55c2 = L.marker(
+                [27.75697458003661, -15.572297106767442],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c72fc20a77d83d660d9111a4a2457e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c089e51e3c93c7d9299afd577cef55c2.setIcon(icon_c72fc20a77d83d660d9111a4a2457e4f);
+        
+    
+        var popup_1df8e1d71fc7f14aad89611357a07240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e16ff2e5ec2cdde6932fe89a03dffdc = $(`<div id="html_8e16ff2e5ec2cdde6932fe89a03dffdc" style="width: 100.0%; height: 100.0%;">Gold by Marina Playa del Ingles   </div>`)[0];
+                popup_1df8e1d71fc7f14aad89611357a07240.setContent(html_8e16ff2e5ec2cdde6932fe89a03dffdc);
+            
+        
+
+        marker_c089e51e3c93c7d9299afd577cef55c2.bindPopup(popup_1df8e1d71fc7f14aad89611357a07240)
+        ;
+
+        
+    
+    
+            marker_c089e51e3c93c7d9299afd577cef55c2.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f05e57fdaae56bfc89fe331245ca93c5 = L.marker(
+                [28.112210673107164, -15.417284922113168],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_b0f14b22451576d3a82d7634278df0b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f05e57fdaae56bfc89fe331245ca93c5.setIcon(icon_b0f14b22451576d3a82d7634278df0b4);
+        
+    
+        var popup_866c47ec57c18a23faac5bc817c884b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5a4635d34f18379afc973b57c5ae1e = $(`<div id="html_1e5a4635d34f18379afc973b57c5ae1e" style="width: 100.0%; height: 100.0%;">AC Hotel Iberia Las Palmas by Marriott </div>`)[0];
+                popup_866c47ec57c18a23faac5bc817c884b7.setContent(html_1e5a4635d34f18379afc973b57c5ae1e);
+            
+        
+
+        marker_f05e57fdaae56bfc89fe331245ca93c5.bindPopup(popup_866c47ec57c18a23faac5bc817c884b7)
+        ;
+
+        
+    
+    
+            marker_f05e57fdaae56bfc89fe331245ca93c5.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02b601d6e03cae33ee0061d0d786dde4 = L.marker(
+                [28.13915071874358, -15.43032722027873],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_b1cd7e2e14f5b89844b17ada34633081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_02b601d6e03cae33ee0061d0d786dde4.setIcon(icon_b1cd7e2e14f5b89844b17ada34633081);
+        
+    
+        var popup_8b5d336706a8b14bee3feb2419ff9364 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_861986f56520b8d2544d2d9cf58341a6 = $(`<div id="html_861986f56520b8d2544d2d9cf58341a6" style="width: 100.0%; height: 100.0%;">Design Plus Bex Hotel </div>`)[0];
+                popup_8b5d336706a8b14bee3feb2419ff9364.setContent(html_861986f56520b8d2544d2d9cf58341a6);
+            
+        
+
+        marker_02b601d6e03cae33ee0061d0d786dde4.bindPopup(popup_8b5d336706a8b14bee3feb2419ff9364)
+        ;
+
+        
+    
+    
+            marker_02b601d6e03cae33ee0061d0d786dde4.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9eabc6fa53e1b7e848ffe99fe2d889b = L.marker(
+                [28.14093481480247, -15.431490381637696],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_0b8b819ecf02d4b7d63bcbdda3dff6dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_d9eabc6fa53e1b7e848ffe99fe2d889b.setIcon(icon_0b8b819ecf02d4b7d63bcbdda3dff6dc);
+        
+    
+        var popup_7a37a719065565be1ee17a0fdd825f4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c89861c0fd9ea9b0b8b8def075e8ecf = $(`<div id="html_5c89861c0fd9ea9b0b8b8def075e8ecf" style="width: 100.0%; height: 100.0%;">HD Acuario Lifestyle </div>`)[0];
+                popup_7a37a719065565be1ee17a0fdd825f4e.setContent(html_5c89861c0fd9ea9b0b8b8def075e8ecf);
+            
+        
+
+        marker_d9eabc6fa53e1b7e848ffe99fe2d889b.bindPopup(popup_7a37a719065565be1ee17a0fdd825f4e)
+        ;
+
+        
+    
+    
+            marker_d9eabc6fa53e1b7e848ffe99fe2d889b.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_570cca8cabded4646cab1bcd98860612 = L.marker(
+                [28.00686486532904, -15.59990960862745],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_506d01c77c669ab00838ba6bfe7fb84a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_570cca8cabded4646cab1bcd98860612.setIcon(icon_506d01c77c669ab00838ba6bfe7fb84a);
+        
+    
+        var popup_44d51822a14076fb61bb92dc97fb89d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_122538c504db27c540a80ce1b4d670c9 = $(`<div id="html_122538c504db27c540a80ce1b4d670c9" style="width: 100.0%; height: 100.0%;">Parador de Cruz de Tejeda </div>`)[0];
+                popup_44d51822a14076fb61bb92dc97fb89d5.setContent(html_122538c504db27c540a80ce1b4d670c9);
+            
+        
+
+        marker_570cca8cabded4646cab1bcd98860612.bindPopup(popup_44d51822a14076fb61bb92dc97fb89d5)
+        ;
+
+        
+    
+    
+            marker_570cca8cabded4646cab1bcd98860612.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_253c3ccf6ab8aec3ef6dabb3280b94a1 = L.marker(
+                [28.103007714787342, -15.41554756631178],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_4f4a915928f89843563d2c30703d0666 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_253c3ccf6ab8aec3ef6dabb3280b94a1.setIcon(icon_4f4a915928f89843563d2c30703d0666);
+        
+    
+        var popup_042cc72614f9aef77b7bdade9c97ff2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d66a91e0396a6ac607608cde80c88463 = $(`<div id="html_d66a91e0396a6ac607608cde80c88463" style="width: 100.0%; height: 100.0%;">Boutique Hotel Cordial La Peregrina </div>`)[0];
+                popup_042cc72614f9aef77b7bdade9c97ff2a.setContent(html_d66a91e0396a6ac607608cde80c88463);
+            
+        
+
+        marker_253c3ccf6ab8aec3ef6dabb3280b94a1.bindPopup(popup_042cc72614f9aef77b7bdade9c97ff2a)
+        ;
+
+        
+    
+    
+            marker_253c3ccf6ab8aec3ef6dabb3280b94a1.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_259de6f72715fb91c5e267ab9374b9e2 = L.marker(
+                [28.133851163076674, -15.433509535601686],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_91cb69ada7dcec5217536058eeed72c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_259de6f72715fb91c5e267ab9374b9e2.setIcon(icon_91cb69ada7dcec5217536058eeed72c8);
+        
+    
+        var popup_e37b029219aaeef37ecc64b496863fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8c3cead5aac61677a55cf13706ff4c0 = $(`<div id="html_b8c3cead5aac61677a55cf13706ff4c0" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Fataga </div>`)[0];
+                popup_e37b029219aaeef37ecc64b496863fa2.setContent(html_b8c3cead5aac61677a55cf13706ff4c0);
+            
+        
+
+        marker_259de6f72715fb91c5e267ab9374b9e2.bindPopup(popup_e37b029219aaeef37ecc64b496863fa2)
+        ;
+
+        
+    
+    
+            marker_259de6f72715fb91c5e267ab9374b9e2.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42f011bd7ac1a306d54a712da1d27902 = L.marker(
+                [27.763647486682746, -15.570410322101287],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_938aa5ed75b54116bd602ef636aab80b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_42f011bd7ac1a306d54a712da1d27902.setIcon(icon_938aa5ed75b54116bd602ef636aab80b);
+        
+    
+        var popup_5ee43c1ecb852928a232cee8011726ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90d50eaefd9cee896221368d6c0df4a0 = $(`<div id="html_90d50eaefd9cee896221368d6c0df4a0" style="width: 100.0%; height: 100.0%;">Hotel Gran Canaria Princess </div>`)[0];
+                popup_5ee43c1ecb852928a232cee8011726ce.setContent(html_90d50eaefd9cee896221368d6c0df4a0);
+            
+        
+
+        marker_42f011bd7ac1a306d54a712da1d27902.bindPopup(popup_5ee43c1ecb852928a232cee8011726ce)
+        ;
+
+        
+    
+    
+            marker_42f011bd7ac1a306d54a712da1d27902.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17556c7a2a9c5c256235298759ef1f23 = L.marker(
+                [27.813941564926523, -15.750845237471761],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_afdd6ec18f8fc41846a2f584df13070e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_17556c7a2a9c5c256235298759ef1f23.setIcon(icon_afdd6ec18f8fc41846a2f584df13070e);
+        
+    
+        var popup_ebb9efc5e20aa7e00f15a4cb93701445 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_004ba4a6cd8509dbc0cdb9d9fc967628 = $(`<div id="html_004ba4a6cd8509dbc0cdb9d9fc967628" style="width: 100.0%; height: 100.0%;">Mogan Princess & Beach Club </div>`)[0];
+                popup_ebb9efc5e20aa7e00f15a4cb93701445.setContent(html_004ba4a6cd8509dbc0cdb9d9fc967628);
+            
+        
+
+        marker_17556c7a2a9c5c256235298759ef1f23.bindPopup(popup_ebb9efc5e20aa7e00f15a4cb93701445)
+        ;
+
+        
+    
+    
+            marker_17556c7a2a9c5c256235298759ef1f23.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b96205eea16766c8729448a1eef14967 = L.marker(
+                [28.140839133177725, -15.434847377950856],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_665f31d746023afc885967644834a420 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b96205eea16766c8729448a1eef14967.setIcon(icon_665f31d746023afc885967644834a420);
+        
+    
+        var popup_5d82179018af358cdb271ad7e05b4da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c2c6fe6d884d254c51353e8abaf9b3c = $(`<div id="html_8c2c6fe6d884d254c51353e8abaf9b3c" style="width: 100.0%; height: 100.0%;">Occidental Las Canteras </div>`)[0];
+                popup_5d82179018af358cdb271ad7e05b4da2.setContent(html_8c2c6fe6d884d254c51353e8abaf9b3c);
+            
+        
+
+        marker_b96205eea16766c8729448a1eef14967.bindPopup(popup_5d82179018af358cdb271ad7e05b4da2)
+        ;
+
+        
+    
+    
+            marker_b96205eea16766c8729448a1eef14967.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c983425bcd556ef532d14d44c61a4f42 = L.marker(
+                [28.103829221808486, -15.41652002211531],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_ca2dd04e3460a90a8dcf9cf731900b5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c983425bcd556ef532d14d44c61a4f42.setIcon(icon_ca2dd04e3460a90a8dcf9cf731900b5c);
+        
+    
+        var popup_656ad44b4518231d4dafa8c3910d1b14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aafdaf2c6ee8563f89b44244237846e = $(`<div id="html_2aafdaf2c6ee8563f89b44244237846e" style="width: 100.0%; height: 100.0%;">Boutique Hotel Cordial Malteses </div>`)[0];
+                popup_656ad44b4518231d4dafa8c3910d1b14.setContent(html_2aafdaf2c6ee8563f89b44244237846e);
+            
+        
+
+        marker_c983425bcd556ef532d14d44c61a4f42.bindPopup(popup_656ad44b4518231d4dafa8c3910d1b14)
+        ;
+
+        
+    
+    
+            marker_c983425bcd556ef532d14d44c61a4f42.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa2da18cb9945a975218bd32cd3ea07d = L.marker(
+                [28.100153083777183, -15.414303808615575],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_946175bbdf97fb3c0604555554f70af9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_fa2da18cb9945a975218bd32cd3ea07d.setIcon(icon_946175bbdf97fb3c0604555554f70af9);
+        
+    
+        var popup_50ca19f96b1c89e95e3fb24a5c456a6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d73a0dbffd20d6f79f97942de18e7511 = $(`<div id="html_d73a0dbffd20d6f79f97942de18e7511" style="width: 100.0%; height: 100.0%;">Boutique Hotel Cordial La Niña de Vegueta </div>`)[0];
+                popup_50ca19f96b1c89e95e3fb24a5c456a6a.setContent(html_d73a0dbffd20d6f79f97942de18e7511);
+            
+        
+
+        marker_fa2da18cb9945a975218bd32cd3ea07d.bindPopup(popup_50ca19f96b1c89e95e3fb24a5c456a6a)
+        ;
+
+        
+    
+    
+            marker_fa2da18cb9945a975218bd32cd3ea07d.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f707b0c4970df75403dc252f3ef691f = L.marker(
+                [27.76300673133311, -15.592367618542344],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_e209858cc34acc42c9107c69b6bc7340 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_6f707b0c4970df75403dc252f3ef691f.setIcon(icon_e209858cc34acc42c9107c69b6bc7340);
+        
+    
+        var popup_7e7723f32d0a11d1638e571ea5fbb3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87c65099fed1dd026c0992b6d1957a42 = $(`<div id="html_87c65099fed1dd026c0992b6d1957a42" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Koala Garden </div>`)[0];
+                popup_7e7723f32d0a11d1638e571ea5fbb3f6.setContent(html_87c65099fed1dd026c0992b6d1957a42);
+            
+        
+
+        marker_6f707b0c4970df75403dc252f3ef691f.bindPopup(popup_7e7723f32d0a11d1638e571ea5fbb3f6)
+        ;
+
+        
+    
+    
+            marker_6f707b0c4970df75403dc252f3ef691f.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c7ee4705c2941c6996fdee0d7f93e8a = L.marker(
+                [27.757460790643385, -15.572205379790402],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_3902a6f552cfe9a89d9e343ccf5243e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4c7ee4705c2941c6996fdee0d7f93e8a.setIcon(icon_3902a6f552cfe9a89d9e343ccf5243e8);
+        
+    
+        var popup_86475e4ac4ac9df298833d18159a2930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bee89ca5b02a7515cb46438e6fa6ea49 = $(`<div id="html_bee89ca5b02a7515cb46438e6fa6ea49" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Anamar Suites </div>`)[0];
+                popup_86475e4ac4ac9df298833d18159a2930.setContent(html_bee89ca5b02a7515cb46438e6fa6ea49);
+            
+        
+
+        marker_4c7ee4705c2941c6996fdee0d7f93e8a.bindPopup(popup_86475e4ac4ac9df298833d18159a2930)
+        ;
+
+        
+    
+    
+            marker_4c7ee4705c2941c6996fdee0d7f93e8a.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7f97e72bfe83a6a50d52481b023016d = L.marker(
+                [27.763909467341126, -15.56416232210954],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_54ae767e840bee283dd951fa70b405d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c7f97e72bfe83a6a50d52481b023016d.setIcon(icon_54ae767e840bee283dd951fa70b405d4);
+        
+    
+        var popup_97fe2a1d277104eba6c95f3f6eeaba89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60603d3749ed93f43f2a0f6b563b0380 = $(`<div id="html_60603d3749ed93f43f2a0f6b563b0380" style="width: 100.0%; height: 100.0%;">Servatur Playa Bonita </div>`)[0];
+                popup_97fe2a1d277104eba6c95f3f6eeaba89.setContent(html_60603d3749ed93f43f2a0f6b563b0380);
+            
+        
+
+        marker_c7f97e72bfe83a6a50d52481b023016d.bindPopup(popup_97fe2a1d277104eba6c95f3f6eeaba89)
+        ;
+
+        
+    
+    
+            marker_c7f97e72bfe83a6a50d52481b023016d.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_113c75ffc4499934bd84790135a61247 = L.marker(
+                [27.77144507443805, -15.54169042211036],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_51d00004b1fa4b0760afe43a048f3296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_113c75ffc4499934bd84790135a61247.setIcon(icon_51d00004b1fa4b0760afe43a048f3296);
+        
+    
+        var popup_ccc8755f4aded463294557c4a56b33d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c03fde888ddee814d470adbdefee48ea = $(`<div id="html_c03fde888ddee814d470adbdefee48ea" style="width: 100.0%; height: 100.0%;">Bull Costa Canaria & SPA </div>`)[0];
+                popup_ccc8755f4aded463294557c4a56b33d7.setContent(html_c03fde888ddee814d470adbdefee48ea);
+            
+        
+
+        marker_113c75ffc4499934bd84790135a61247.bindPopup(popup_ccc8755f4aded463294557c4a56b33d7)
+        ;
+
+        
+    
+    
+            marker_113c75ffc4499934bd84790135a61247.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d043cbd14a503a267374f0335201147c = L.marker(
+                [27.768138019541603, -15.550063022111223],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_8d06a2fef51df24e531bc510c716dfa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_d043cbd14a503a267374f0335201147c.setIcon(icon_8d06a2fef51df24e531bc510c716dfa4);
+        
+    
+        var popup_54f0862f017714aea245a12d1c298d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8de15522f4e4db576dfe6e71432a0b46 = $(`<div id="html_8de15522f4e4db576dfe6e71432a0b46" style="width: 100.0%; height: 100.0%;">Don Gregory by Dunas </div>`)[0];
+                popup_54f0862f017714aea245a12d1c298d9b.setContent(html_8de15522f4e4db576dfe6e71432a0b46);
+            
+        
+
+        marker_d043cbd14a503a267374f0335201147c.bindPopup(popup_54f0862f017714aea245a12d1c298d9b)
+        ;
+
+        
+    
+    
+            marker_d043cbd14a503a267374f0335201147c.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d1f9f7b03759282b528ec84362570ee = L.marker(
+                [27.7520346679915, -15.583351906781964],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_fe15abef66d664186f96afaef6719a41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3d1f9f7b03759282b528ec84362570ee.setIcon(icon_fe15abef66d664186f96afaef6719a41);
+        
+    
+        var popup_464ecd80d909c5a19d83a36a46472586 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b1e1f13e40205237dea3b9e24606648 = $(`<div id="html_1b1e1f13e40205237dea3b9e24606648" style="width: 100.0%; height: 100.0%;">Kumara Serenoa By Lopesan Hotels </div>`)[0];
+                popup_464ecd80d909c5a19d83a36a46472586.setContent(html_1b1e1f13e40205237dea3b9e24606648);
+            
+        
+
+        marker_3d1f9f7b03759282b528ec84362570ee.bindPopup(popup_464ecd80d909c5a19d83a36a46472586)
+        ;
+
+        
+    
+    
+            marker_3d1f9f7b03759282b528ec84362570ee.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_035b508407a61251e116b1f1498aa190 = L.marker(
+                [27.752513193527076, -15.588659506757363],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_315edc1cc0fc7f17fc6c2aa966c80daa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_035b508407a61251e116b1f1498aa190.setIcon(icon_315edc1cc0fc7f17fc6c2aa966c80daa);
+        
+    
+        var popup_fd66f72d262eee657dcf3d8b404cb8c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58aeb82623535ce63d0273d5eb698f31 = $(`<div id="html_58aeb82623535ce63d0273d5eb698f31" style="width: 100.0%; height: 100.0%;">Seven Hotel & Wellness </div>`)[0];
+                popup_fd66f72d262eee657dcf3d8b404cb8c2.setContent(html_58aeb82623535ce63d0273d5eb698f31);
+            
+        
+
+        marker_035b508407a61251e116b1f1498aa190.bindPopup(popup_fd66f72d262eee657dcf3d8b404cb8c2)
+        ;
+
+        
+    
+    
+            marker_035b508407a61251e116b1f1498aa190.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c2a276a5f22a1e5a12867902b4b9a88 = L.marker(
+                [28.100388683374707, -15.415686993277433],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_43b345f189160ba887dd8d47d5091be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1c2a276a5f22a1e5a12867902b4b9a88.setIcon(icon_43b345f189160ba887dd8d47d5091be3);
+        
+    
+        var popup_81d6f1799b94166182aced710acfeb5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1a8b51370c188387c65abdcf9fd1b2f = $(`<div id="html_c1a8b51370c188387c65abdcf9fd1b2f" style="width: 100.0%; height: 100.0%;">Boutique Hotel Cordial Plaza Mayor de Santa Ana </div>`)[0];
+                popup_81d6f1799b94166182aced710acfeb5c.setContent(html_c1a8b51370c188387c65abdcf9fd1b2f);
+            
+        
+
+        marker_1c2a276a5f22a1e5a12867902b4b9a88.bindPopup(popup_81d6f1799b94166182aced710acfeb5c)
+        ;
+
+        
+    
+    
+            marker_1c2a276a5f22a1e5a12867902b4b9a88.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00ff23ded2e63598b8e22e85756bb637 = L.marker(
+                [27.763456474438335, -15.571430335601855],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_9204f28ec20ab56138a02d80fd4f2596 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_00ff23ded2e63598b8e22e85756bb637.setIcon(icon_9204f28ec20ab56138a02d80fd4f2596);
+        
+    
+        var popup_c22f5c9d2fe64a6a2de572c06be8dfdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8379824af7e4e378c5fceea842e64607 = $(`<div id="html_8379824af7e4e378c5fceea842e64607" style="width: 100.0%; height: 100.0%;">Servatur Waikiki </div>`)[0];
+                popup_c22f5c9d2fe64a6a2de572c06be8dfdf.setContent(html_8379824af7e4e378c5fceea842e64607);
+            
+        
+
+        marker_00ff23ded2e63598b8e22e85756bb637.bindPopup(popup_c22f5c9d2fe64a6a2de572c06be8dfdf)
+        ;
+
+        
+    
+    
+            marker_00ff23ded2e63598b8e22e85756bb637.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c252340faec90eff66f46b9aba056d3 = L.marker(
+                [28.13965777477246, -15.430079637458888],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_94ef8a46e9ec362a834579037e901b95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_6c252340faec90eff66f46b9aba056d3.setIcon(icon_94ef8a46e9ec362a834579037e901b95);
+        
+    
+        var popup_1f5eabf63c905c47dc4c12007f39284c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77a4f056a55bd4b332c6787fa28a3fd9 = $(`<div id="html_77a4f056a55bd4b332c6787fa28a3fd9" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Lumm </div>`)[0];
+                popup_1f5eabf63c905c47dc4c12007f39284c.setContent(html_77a4f056a55bd4b332c6787fa28a3fd9);
+            
+        
+
+        marker_6c252340faec90eff66f46b9aba056d3.bindPopup(popup_1f5eabf63c905c47dc4c12007f39284c)
+        ;
+
+        
+    
+    
+            marker_6c252340faec90eff66f46b9aba056d3.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9537190a116e40b95b3b50525abb4ab = L.marker(
+                [28.131401228628775, -15.430133206775814],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c26f8a164523e494fa404fd7c1c2b638 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a9537190a116e40b95b3b50525abb4ab.setIcon(icon_c26f8a164523e494fa404fd7c1c2b638);
+        
+    
+        var popup_4908b7d19ff2293f0035a90ede63d715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99682832452ccc04a1b51027c8f7942e = $(`<div id="html_99682832452ccc04a1b51027c8f7942e" style="width: 100.0%; height: 100.0%;">Silken Saaj Las Palmas </div>`)[0];
+                popup_4908b7d19ff2293f0035a90ede63d715.setContent(html_99682832452ccc04a1b51027c8f7942e);
+            
+        
+
+        marker_a9537190a116e40b95b3b50525abb4ab.bindPopup(popup_4908b7d19ff2293f0035a90ede63d715)
+        ;
+
+        
+    
+    
+            marker_a9537190a116e40b95b3b50525abb4ab.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47838c9b3ba928d0b00cb36beef20082 = L.marker(
+                [27.760748661063772, -15.576753822133961],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_97fa0b1397d688b1234b5a507ac7bdd4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_47838c9b3ba928d0b00cb36beef20082.setIcon(icon_97fa0b1397d688b1234b5a507ac7bdd4);
+        
+    
+        var popup_d684436ffd8d5b66b8682d1a116af579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2412f209b101d46e3db6b62eed2e747b = $(`<div id="html_2412f209b101d46e3db6b62eed2e747b" style="width: 100.0%; height: 100.0%;">Sanom Beach Resort </div>`)[0];
+                popup_d684436ffd8d5b66b8682d1a116af579.setContent(html_2412f209b101d46e3db6b62eed2e747b);
+            
+        
+
+        marker_47838c9b3ba928d0b00cb36beef20082.bindPopup(popup_d684436ffd8d5b66b8682d1a116af579)
+        ;
+
+        
+    
+    
+            marker_47838c9b3ba928d0b00cb36beef20082.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be78b057daa93d41ab75f8b33753036f = L.marker(
+                [28.148651037840928, -15.430809279792047],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_45e61a5fbb299be5c77fa283e78e8294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_be78b057daa93d41ab75f8b33753036f.setIcon(icon_45e61a5fbb299be5c77fa283e78e8294);
+        
+    
+        var popup_275776b62c28dfbbb09eddc8aab96e37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbdd7d588fd2687d73b6dea1cf3e95ee = $(`<div id="html_bbdd7d588fd2687d73b6dea1cf3e95ee" style="width: 100.0%; height: 100.0%;">NH Imperial Playa </div>`)[0];
+                popup_275776b62c28dfbbb09eddc8aab96e37.setContent(html_bbdd7d588fd2687d73b6dea1cf3e95ee);
+            
+        
+
+        marker_be78b057daa93d41ab75f8b33753036f.bindPopup(popup_275776b62c28dfbbb09eddc8aab96e37)
+        ;
+
+        
+    
+    
+            marker_be78b057daa93d41ab75f8b33753036f.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff59e082b3c0bdcedec80dbf554c91e0 = L.marker(
+                [27.78300910841014, -15.518419650954671],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_f44275f08750f46a29fbbf6d653ab76b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ff59e082b3c0bdcedec80dbf554c91e0.setIcon(icon_f44275f08750f46a29fbbf6d653ab76b);
+        
+    
+        var popup_1825ef08ad6b90a0aa4a036055ebd3c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9ed4fc3c6a920fa94465ca7fc435cf1 = $(`<div id="html_f9ed4fc3c6a920fa94465ca7fc435cf1" style="width: 100.0%; height: 100.0%;">Grupotel Orquidea </div>`)[0];
+                popup_1825ef08ad6b90a0aa4a036055ebd3c9.setContent(html_f9ed4fc3c6a920fa94465ca7fc435cf1);
+            
+        
+
+        marker_ff59e082b3c0bdcedec80dbf554c91e0.bindPopup(popup_1825ef08ad6b90a0aa4a036055ebd3c9)
+        ;
+
+        
+    
+    
+            marker_ff59e082b3c0bdcedec80dbf554c91e0.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06c376c110cd7d32e824868b7a1c5b5e = L.marker(
+                [27.76360773021601, -15.563551793277938],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c45243a23f1cb3ff34ecf4d4833286e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_06c376c110cd7d32e824868b7a1c5b5e.setIcon(icon_c45243a23f1cb3ff34ecf4d4833286e5);
+        
+    
+        var popup_e428facb9bd4b8a59d36a7ee2ba3c403 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d8ba7aa985926cc020905af254212d7 = $(`<div id="html_2d8ba7aa985926cc020905af254212d7" style="width: 100.0%; height: 100.0%;">Hotel Caserio </div>`)[0];
+                popup_e428facb9bd4b8a59d36a7ee2ba3c403.setContent(html_2d8ba7aa985926cc020905af254212d7);
+            
+        
+
+        marker_06c376c110cd7d32e824868b7a1c5b5e.bindPopup(popup_e428facb9bd4b8a59d36a7ee2ba3c403)
+        ;
+
+        
+    
+    
+            marker_06c376c110cd7d32e824868b7a1c5b5e.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c4ace2b39203e07287f2551bae7fdea = L.marker(
+                [27.785241211906378, -15.71020930677091],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_99a3bb79f6323595c785b1c0f3526085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0c4ace2b39203e07287f2551bae7fdea.setIcon(icon_99a3bb79f6323595c785b1c0f3526085);
+        
+    
+        var popup_abfc1f4a36d6cea31e02c7cd1f2e2027 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b47d58674e2ee93edcd58098a9495f5 = $(`<div id="html_6b47d58674e2ee93edcd58098a9495f5" style="width: 100.0%; height: 100.0%;">IG Nachosol Atlantic & Yaizasol by Servatur </div>`)[0];
+                popup_abfc1f4a36d6cea31e02c7cd1f2e2027.setContent(html_6b47d58674e2ee93edcd58098a9495f5);
+            
+        
+
+        marker_0c4ace2b39203e07287f2551bae7fdea.bindPopup(popup_abfc1f4a36d6cea31e02c7cd1f2e2027)
+        ;
+
+        
+    
+    
+            marker_0c4ace2b39203e07287f2551bae7fdea.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d1e00845571f0058479498a117b12c0 = L.marker(
+                [28.100714431857476, -15.413873579783631],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_f3afa4ead6feaad857aa9526e77b298e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3d1e00845571f0058479498a117b12c0.setIcon(icon_f3afa4ead6feaad857aa9526e77b298e);
+        
+    
+        var popup_f0e467be11569051a0560b33075598e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f7a162487afd5fd55274f413825c43c = $(`<div id="html_7f7a162487afd5fd55274f413825c43c" style="width: 100.0%; height: 100.0%;">VEINTIUNO Emblematic Hotels </div>`)[0];
+                popup_f0e467be11569051a0560b33075598e5.setContent(html_7f7a162487afd5fd55274f413825c43c);
+            
+        
+
+        marker_3d1e00845571f0058479498a117b12c0.bindPopup(popup_f0e467be11569051a0560b33075598e5)
+        ;
+
+        
+    
+    
+            marker_3d1e00845571f0058479498a117b12c0.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a3359bacba1cda6e30183f92bfb85a2 = L.marker(
+                [27.7590421644842, -15.5670978932842],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_312cbadc48003c291910a40fcf1a736c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3a3359bacba1cda6e30183f92bfb85a2.setIcon(icon_312cbadc48003c291910a40fcf1a736c);
+        
+    
+        var popup_405879462a96cca4a16d0a788943bb7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15ef2d4dc62dc6f8bc7acbcc7da4ac34 = $(`<div id="html_15ef2d4dc62dc6f8bc7acbcc7da4ac34" style="width: 100.0%; height: 100.0%;">HL Suite Nardos </div>`)[0];
+                popup_405879462a96cca4a16d0a788943bb7d.setContent(html_15ef2d4dc62dc6f8bc7acbcc7da4ac34);
+            
+        
+
+        marker_3a3359bacba1cda6e30183f92bfb85a2.bindPopup(popup_405879462a96cca4a16d0a788943bb7d)
+        ;
+
+        
+    
+    
+            marker_3a3359bacba1cda6e30183f92bfb85a2.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a51ece4af0736bce195a5e800071d6ac = L.marker(
+                [27.754948100320192, -15.580737093292452],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_9942fdd1f9757075fa4f320f31165f96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_a51ece4af0736bce195a5e800071d6ac.setIcon(icon_9942fdd1f9757075fa4f320f31165f96);
+        
+    
+        var popup_47dd898228e43cee31868d295afe1fa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7424efef80b557959a6673f9a303849c = $(`<div id="html_7424efef80b557959a6673f9a303849c" style="width: 100.0%; height: 100.0%;">Bull Vital Suites & Spa Boutique Hotel  </div>`)[0];
+                popup_47dd898228e43cee31868d295afe1fa5.setContent(html_7424efef80b557959a6673f9a303849c);
+            
+        
+
+        marker_a51ece4af0736bce195a5e800071d6ac.bindPopup(popup_47dd898228e43cee31868d295afe1fa5)
+        ;
+
+        
+    
+    
+            marker_a51ece4af0736bce195a5e800071d6ac.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72cadbfad5022f24ac61a74eecabe59f = L.marker(
+                [27.76358304909359, -15.571991706769923],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_3cd0e2359f64d3eed6d1fd4486140b9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_72cadbfad5022f24ac61a74eecabe59f.setIcon(icon_3cd0e2359f64d3eed6d1fd4486140b9a);
+        
+    
+        var popup_3d7f5bbb353e806e9868105b22205a87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b516f753a5a6ba7c87cbc1d7bf3ecf43 = $(`<div id="html_b516f753a5a6ba7c87cbc1d7bf3ecf43" style="width: 100.0%; height: 100.0%;">Hotel Riu Papayas </div>`)[0];
+                popup_3d7f5bbb353e806e9868105b22205a87.setContent(html_b516f753a5a6ba7c87cbc1d7bf3ecf43);
+            
+        
+
+        marker_72cadbfad5022f24ac61a74eecabe59f.bindPopup(popup_3d7f5bbb353e806e9868105b22205a87)
+        ;
+
+        
+    
+    
+            marker_72cadbfad5022f24ac61a74eecabe59f.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec085f2d115883c46f0c94c65d098dda = L.marker(
+                [27.757421184969058, -15.577215493280882],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_07cdc93cf6f7450d29404f9d2176b897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ec085f2d115883c46f0c94c65d098dda.setIcon(icon_07cdc93cf6f7450d29404f9d2176b897);
+        
+    
+        var popup_213b83f788857b123a0a8ac874a02215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a18198612f04a66b9259dba9c9e4ccb = $(`<div id="html_8a18198612f04a66b9259dba9c9e4ccb" style="width: 100.0%; height: 100.0%;">Hotel Nayra </div>`)[0];
+                popup_213b83f788857b123a0a8ac874a02215.setContent(html_8a18198612f04a66b9259dba9c9e4ccb);
+            
+        
+
+        marker_ec085f2d115883c46f0c94c65d098dda.bindPopup(popup_213b83f788857b123a0a8ac874a02215)
+        ;
+
+        
+    
+    
+            marker_ec085f2d115883c46f0c94c65d098dda.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f56af6b300530d4745130b83b1f90d1 = L.marker(
+                [27.817576246958577, -15.750615679783474],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_f43adca0618c2c8718e09caf8b98904d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4f56af6b300530d4745130b83b1f90d1.setIcon(icon_f43adca0618c2c8718e09caf8b98904d);
+        
+    
+        var popup_b58fdda197352399fdbabbad361a9932 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad4811abef4b642313d07bd708b03893 = $(`<div id="html_ad4811abef4b642313d07bd708b03893" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Costa Taurito & Aquapark </div>`)[0];
+                popup_b58fdda197352399fdbabbad361a9932.setContent(html_ad4811abef4b642313d07bd708b03893);
+            
+        
+
+        marker_4f56af6b300530d4745130b83b1f90d1.bindPopup(popup_b58fdda197352399fdbabbad361a9932)
+        ;
+
+        
+    
+    
+            marker_4f56af6b300530d4745130b83b1f90d1.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1af81146ca4cb21e262bf2db8e56ef7 = L.marker(
+                [27.762886112472415, -15.580430295668785],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_0edb0c05d37ddc747cabe60f40e2f6c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_d1af81146ca4cb21e262bf2db8e56ef7.setIcon(icon_0edb0c05d37ddc747cabe60f40e2f6c7);
+        
+    
+        var popup_bd261e6b8d29e910fac88553314a1f40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cc41106bfb26a5a0b281500b26b2933 = $(`<div id="html_8cc41106bfb26a5a0b281500b26b2933" style="width: 100.0%; height: 100.0%;">Barceló Margaritas </div>`)[0];
+                popup_bd261e6b8d29e910fac88553314a1f40.setContent(html_8cc41106bfb26a5a0b281500b26b2933);
+            
+        
+
+        marker_d1af81146ca4cb21e262bf2db8e56ef7.bindPopup(popup_bd261e6b8d29e910fac88553314a1f40)
+        ;
+
+        
+    
+    
+            marker_d1af81146ca4cb21e262bf2db8e56ef7.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa273fa88ad8942410a5092d69d07293 = L.marker(
+                [27.75950766947179, -15.567214577946565],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_e1921bf9c7c4c8a2a298e7159b85f839 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_fa273fa88ad8942410a5092d69d07293.setIcon(icon_e1921bf9c7c4c8a2a298e7159b85f839);
+        
+    
+        var popup_17e869597d552998a3c41bd52ba51215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cab2868e17a292910d5697501691848d = $(`<div id="html_cab2868e17a292910d5697501691848d" style="width: 100.0%; height: 100.0%;">HL Suitehotel Playa del Inglés </div>`)[0];
+                popup_17e869597d552998a3c41bd52ba51215.setContent(html_cab2868e17a292910d5697501691848d);
+            
+        
+
+        marker_fa273fa88ad8942410a5092d69d07293.bindPopup(popup_17e869597d552998a3c41bd52ba51215)
+        ;
+
+        
+    
+    
+            marker_fa273fa88ad8942410a5092d69d07293.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0cb73fe22020ac575ae86f1ad2ac5ab = L.marker(
+                [27.76338143700749, -15.58142092211961],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_98f732f750c7240b07555a2680adf92c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e0cb73fe22020ac575ae86f1ad2ac5ab.setIcon(icon_98f732f750c7240b07555a2680adf92c);
+        
+    
+        var popup_46dcdf126a15915cb354b323db202d58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd416d6a0c82876a7b01e446060874a2 = $(`<div id="html_cd416d6a0c82876a7b01e446060874a2" style="width: 100.0%; height: 100.0%;">Barceló Margaritas Royal Level   </div>`)[0];
+                popup_46dcdf126a15915cb354b323db202d58.setContent(html_cd416d6a0c82876a7b01e446060874a2);
+            
+        
+
+        marker_e0cb73fe22020ac575ae86f1ad2ac5ab.bindPopup(popup_46dcdf126a15915cb354b323db202d58)
+        ;
+
+        
+    
+    
+            marker_e0cb73fe22020ac575ae86f1ad2ac5ab.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4d4cedb8537fd0a0ba8eec21e8da6c9 = L.marker(
+                [28.04011692349732, -15.446781664444842],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_6de8c68bfeb09bd22a7ecad4ee525fd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f4d4cedb8537fd0a0ba8eec21e8da6c9.setIcon(icon_6de8c68bfeb09bd22a7ecad4ee525fd7);
+        
+    
+        var popup_202a56942abf3de06df9d30096b1d6a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45d42810f443161b67f80151888e8062 = $(`<div id="html_45d42810f443161b67f80151888e8062" style="width: 100.0%; height: 100.0%;">Hotel Rural El Mondalón </div>`)[0];
+                popup_202a56942abf3de06df9d30096b1d6a1.setContent(html_45d42810f443161b67f80151888e8062);
+            
+        
+
+        marker_f4d4cedb8537fd0a0ba8eec21e8da6c9.bindPopup(popup_202a56942abf3de06df9d30096b1d6a1)
+        ;
+
+        
+    
+    
+            marker_f4d4cedb8537fd0a0ba8eec21e8da6c9.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_020ce812f04edd6025a203f8a5f30fd2 = L.marker(
+                [27.762505032812168, -15.563766250956647],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_7c7fe36aae858f154578c958ba2b7143 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_020ce812f04edd6025a203f8a5f30fd2.setIcon(icon_7c7fe36aae858f154578c958ba2b7143);
+        
+    
+        var popup_02ec907b624e213ae2c4c88609ee5728 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853ec57fc7b74742d33eea9776d3ab7d = $(`<div id="html_853ec57fc7b74742d33eea9776d3ab7d" style="width: 100.0%; height: 100.0%;">Labranda Marieta & Spa </div>`)[0];
+                popup_02ec907b624e213ae2c4c88609ee5728.setContent(html_853ec57fc7b74742d33eea9776d3ab7d);
+            
+        
+
+        marker_020ce812f04edd6025a203f8a5f30fd2.bindPopup(popup_02ec907b624e213ae2c4c88609ee5728)
+        ;
+
+        
+    
+    
+            marker_020ce812f04edd6025a203f8a5f30fd2.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04d7e59147b8ae55b2b3ef367d4b7cd1 = L.marker(
+                [27.75538478295083, -15.597239506765625],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_802e11e40f9d900c326453b651f48ef1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_04d7e59147b8ae55b2b3ef367d4b7cd1.setIcon(icon_802e11e40f9d900c326453b651f48ef1);
+        
+    
+        var popup_4cbfa215aaf07845a64c6e1e0d7efe0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c32760e91a9701dd1074abd1f2fbd490 = $(`<div id="html_c32760e91a9701dd1074abd1f2fbd490" style="width: 100.0%; height: 100.0%;">Club Maspalomas Suites & Spa </div>`)[0];
+                popup_4cbfa215aaf07845a64c6e1e0d7efe0a.setContent(html_c32760e91a9701dd1074abd1f2fbd490);
+            
+        
+
+        marker_04d7e59147b8ae55b2b3ef367d4b7cd1.bindPopup(popup_4cbfa215aaf07845a64c6e1e0d7efe0a)
+        ;
+
+        
+    
+    
+            marker_04d7e59147b8ae55b2b3ef367d4b7cd1.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_610fb54cd8bce5c35fa838320a6b25a8 = L.marker(
+                [27.76760256057043, -15.544387079784464],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_bc8cc55cfc0e0a928c0e8bccd079c83b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_610fb54cd8bce5c35fa838320a6b25a8.setIcon(icon_bc8cc55cfc0e0a928c0e8bccd079c83b);
+        
+    
+        var popup_fee0138dfd7a2621d7ee0137e410b731 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb8ad95605743b6ac2e33ec5b551b65a = $(`<div id="html_fb8ad95605743b6ac2e33ec5b551b65a" style="width: 100.0%; height: 100.0%;">Hotel San Agustin Beach Club </div>`)[0];
+                popup_fee0138dfd7a2621d7ee0137e410b731.setContent(html_fb8ad95605743b6ac2e33ec5b551b65a);
+            
+        
+
+        marker_610fb54cd8bce5c35fa838320a6b25a8.bindPopup(popup_fee0138dfd7a2621d7ee0137e410b731)
+        ;
+
+        
+    
+    
+            marker_610fb54cd8bce5c35fa838320a6b25a8.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3461f302efc511ef9cf89072fa67852c = L.marker(
+                [27.75973106311084, -15.57640646628835],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_555a74fc26fb8b82de37598fa7dc9d84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3461f302efc511ef9cf89072fa67852c.setIcon(icon_555a74fc26fb8b82de37598fa7dc9d84);
+        
+    
+        var popup_a4c416d28b6ca952df1d0f98f5ac2e16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd263c0ff9e6068a8260708fcbe26c1a = $(`<div id="html_bd263c0ff9e6068a8260708fcbe26c1a" style="width: 100.0%; height: 100.0%;">MUR Neptuno Gran Canaria </div>`)[0];
+                popup_a4c416d28b6ca952df1d0f98f5ac2e16.setContent(html_bd263c0ff9e6068a8260708fcbe26c1a);
+            
+        
+
+        marker_3461f302efc511ef9cf89072fa67852c.bindPopup(popup_a4c416d28b6ca952df1d0f98f5ac2e16)
+        ;
+
+        
+    
+    
+            marker_3461f302efc511ef9cf89072fa67852c.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5ee9ae52310f2933f1b198a1e15c174 = L.marker(
+                [27.764218241436456, -15.561129920262234],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_9c8381a2497875b5177e33b9c8673c33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_d5ee9ae52310f2933f1b198a1e15c174.setIcon(icon_9c8381a2497875b5177e33b9c8673c33);
+        
+    
+        var popup_6e2c15800e75ff8b8316f2e5e193d54e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c455afc7ff4341eb06c7427c35b2eaf = $(`<div id="html_2c455afc7ff4341eb06c7427c35b2eaf" style="width: 100.0%; height: 100.0%;">Hotel Parque Tropical </div>`)[0];
+                popup_6e2c15800e75ff8b8316f2e5e193d54e.setContent(html_2c455afc7ff4341eb06c7427c35b2eaf);
+            
+        
+
+        marker_d5ee9ae52310f2933f1b198a1e15c174.bindPopup(popup_6e2c15800e75ff8b8316f2e5e193d54e)
+        ;
+
+        
+    
+    
+            marker_d5ee9ae52310f2933f1b198a1e15c174.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9d1eab6c576a307f03614ab052aa46e = L.marker(
+                [28.142275851353517, -15.430315306765955],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_b76a0c5b4fd7cabd20e1aff6673cea44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_e9d1eab6c576a307f03614ab052aa46e.setIcon(icon_b76a0c5b4fd7cabd20e1aff6673cea44);
+        
+    
+        var popup_be78ef906c9cf21e16fa0403d2b05d97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958fb90f6bfa877dff08c5352e991f2f = $(`<div id="html_958fb90f6bfa877dff08c5352e991f2f" style="width: 100.0%; height: 100.0%;">AC Hotel Gran Canaria by Marriott </div>`)[0];
+                popup_be78ef906c9cf21e16fa0403d2b05d97.setContent(html_958fb90f6bfa877dff08c5352e991f2f);
+            
+        
+
+        marker_e9d1eab6c576a307f03614ab052aa46e.bindPopup(popup_be78ef906c9cf21e16fa0403d2b05d97)
+        ;
+
+        
+    
+    
+            marker_e9d1eab6c576a307f03614ab052aa46e.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba315fd007af97039c30a5adf09f6317 = L.marker(
+                [27.755165194435016, -15.585003035605318],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_bef74999874e61a64ba25b86ff55cdd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ba315fd007af97039c30a5adf09f6317.setIcon(icon_bef74999874e61a64ba25b86ff55cdd8);
+        
+    
+        var popup_57ce33ec1ed93eafb8955cddba917419 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f041455d79ce74305422b0ec8540586 = $(`<div id="html_7f041455d79ce74305422b0ec8540586" style="width: 100.0%; height: 100.0%;">eó Suite Hotel Jardin Dorado </div>`)[0];
+                popup_57ce33ec1ed93eafb8955cddba917419.setContent(html_7f041455d79ce74305422b0ec8540586);
+            
+        
+
+        marker_ba315fd007af97039c30a5adf09f6317.bindPopup(popup_57ce33ec1ed93eafb8955cddba917419)
+        ;
+
+        
+    
+    
+            marker_ba315fd007af97039c30a5adf09f6317.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eaaba45d49bd5218823867805e43eb5 = L.marker(
+                [27.76468264326985, -15.600869881088535],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_6eeee7ab6a8896a81532bb841009d3ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_6eaaba45d49bd5218823867805e43eb5.setIcon(icon_6eeee7ab6a8896a81532bb841009d3ff);
+        
+    
+        var popup_91a4e814e6a5d2d58e63ec4580ba74aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a99ae71661f71a9a48c127ce7918ad0 = $(`<div id="html_6a99ae71661f71a9a48c127ce7918ad0" style="width: 100.0%; height: 100.0%;">Maspalomas Resort by Dunas </div>`)[0];
+                popup_91a4e814e6a5d2d58e63ec4580ba74aa.setContent(html_6a99ae71661f71a9a48c127ce7918ad0);
+            
+        
+
+        marker_6eaaba45d49bd5218823867805e43eb5.bindPopup(popup_91a4e814e6a5d2d58e63ec4580ba74aa)
+        ;
+
+        
+    
+    
+            marker_6eaaba45d49bd5218823867805e43eb5.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae3816ec635d64103c7245f6cfbcb5f6 = L.marker(
+                [27.747938196586567, -15.597019079780999],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_9d8923aac072295bc3ad0186d19f4b23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_ae3816ec635d64103c7245f6cfbcb5f6.setIcon(icon_9d8923aac072295bc3ad0186d19f4b23);
+        
+    
+        var popup_f286b2c3ad9b1217da7d19d3e3e2a7db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38332e4f212a73b6d762af2b9a2b0422 = $(`<div id="html_38332e4f212a73b6d762af2b9a2b0422" style="width: 100.0%; height: 100.0%;">Suites & Villas by Dunas </div>`)[0];
+                popup_f286b2c3ad9b1217da7d19d3e3e2a7db.setContent(html_38332e4f212a73b6d762af2b9a2b0422);
+            
+        
+
+        marker_ae3816ec635d64103c7245f6cfbcb5f6.bindPopup(popup_f286b2c3ad9b1217da7d19d3e3e2a7db)
+        ;
+
+        
+    
+    
+            marker_ae3816ec635d64103c7245f6cfbcb5f6.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb4fc897cce633851077ebccef913a39 = L.marker(
+                [27.761593447163385, -15.565766093276943],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_165c7c88842f59b8355a29a7cc74383b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_fb4fc897cce633851077ebccef913a39.setIcon(icon_165c7c88842f59b8355a29a7cc74383b);
+        
+    
+        var popup_e1a852ea265cdc2ecdb9a17334166722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e863eb021e313d01a7ce033b6d537824 = $(`<div id="html_e863eb021e313d01a7ce033b6d537824" style="width: 100.0%; height: 100.0%;">Akeah Broncemar </div>`)[0];
+                popup_e1a852ea265cdc2ecdb9a17334166722.setContent(html_e863eb021e313d01a7ce033b6d537824);
+            
+        
+
+        marker_fb4fc897cce633851077ebccef913a39.bindPopup(popup_e1a852ea265cdc2ecdb9a17334166722)
+        ;
+
+        
+    
+    
+            marker_fb4fc897cce633851077ebccef913a39.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ff6c6854152876ba234ed17169f2da1 = L.marker(
+                [27.76198568314263, -15.5781072797815],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_1d88cf723205f0f29529b99f2415ab3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_6ff6c6854152876ba234ed17169f2da1.setIcon(icon_1d88cf723205f0f29529b99f2415ab3c);
+        
+    
+        var popup_56bdf2ee860a86c5a3702dd3569f5904 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_253a9b7d675681fa95837673bb728a6a = $(`<div id="html_253a9b7d675681fa95837673bb728a6a" style="width: 100.0%; height: 100.0%;">HL Miraflor Suites Hotel </div>`)[0];
+                popup_56bdf2ee860a86c5a3702dd3569f5904.setContent(html_253a9b7d675681fa95837673bb728a6a);
+            
+        
+
+        marker_6ff6c6854152876ba234ed17169f2da1.bindPopup(popup_56bdf2ee860a86c5a3702dd3569f5904)
+        ;
+
+        
+    
+    
+            marker_6ff6c6854152876ba234ed17169f2da1.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3ca8f098442858203b6ea2edb21c448 = L.marker(
+                [28.10277493502273, -15.710450250954507],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_3b565156bd0df2ced4b61c0689eeb5e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f3ca8f098442858203b6ea2edb21c448.setIcon(icon_3b565156bd0df2ced4b61c0689eeb5e0);
+        
+    
+        var popup_dbfa61b9d910e07e84cb6ed02aaeb183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80f7b633255a8ae1fe114d4557101daa = $(`<div id="html_80f7b633255a8ae1fe114d4557101daa" style="width: 100.0%; height: 100.0%;">Hotel Puerto de Las Nieves </div>`)[0];
+                popup_dbfa61b9d910e07e84cb6ed02aaeb183.setContent(html_80f7b633255a8ae1fe114d4557101daa);
+            
+        
+
+        marker_f3ca8f098442858203b6ea2edb21c448.bindPopup(popup_dbfa61b9d910e07e84cb6ed02aaeb183)
+        ;
+
+        
+    
+    
+            marker_f3ca8f098442858203b6ea2edb21c448.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b4c59f58bab80399150073e766f8d74 = L.marker(
+                [28.04588738636972, -15.47673094908938],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_7d76729bd18283e2e9456f1e11f24e14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1b4c59f58bab80399150073e766f8d74.setIcon(icon_7d76729bd18283e2e9456f1e11f24e14);
+        
+    
+        var popup_180ae047358fe9cc2ddc41819076e61f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4259b57bae043c148b4729e2235a61d = $(`<div id="html_d4259b57bae043c148b4729e2235a61d" style="width: 100.0%; height: 100.0%;">Hotel Escuela Santa Brígida </div>`)[0];
+                popup_180ae047358fe9cc2ddc41819076e61f.setContent(html_d4259b57bae043c148b4729e2235a61d);
+            
+        
+
+        marker_1b4c59f58bab80399150073e766f8d74.bindPopup(popup_180ae047358fe9cc2ddc41819076e61f)
+        ;
+
+        
+    
+    
+            marker_1b4c59f58bab80399150073e766f8d74.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f99de07f288a994e2c0bf049f55ed785 = L.marker(
+                [27.78703391664003, -15.717662608613091],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c4b5dca32556c2ea3bfd9617d1438b2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f99de07f288a994e2c0bf049f55ed785.setIcon(icon_c4b5dca32556c2ea3bfd9617d1438b2e);
+        
+    
+        var popup_1e227c5933dba19a6f290e3a3cc62e7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ed87786886ac1c683c15e2164ad640d = $(`<div id="html_2ed87786886ac1c683c15e2164ad640d" style="width: 100.0%; height: 100.0%;">Servatur Puerto Azul </div>`)[0];
+                popup_1e227c5933dba19a6f290e3a3cc62e7d.setContent(html_2ed87786886ac1c683c15e2164ad640d);
+            
+        
+
+        marker_f99de07f288a994e2c0bf049f55ed785.bindPopup(popup_1e227c5933dba19a6f290e3a3cc62e7d)
+        ;
+
+        
+    
+    
+            marker_f99de07f288a994e2c0bf049f55ed785.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb69cd7651f335ad5fab01f957f06a59 = L.marker(
+                [27.792154641901448, -15.70580759142815],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_60703fd2e452b7e893aaefeb9b764ff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_bb69cd7651f335ad5fab01f957f06a59.setIcon(icon_60703fd2e452b7e893aaefeb9b764ff7);
+        
+    
+        var popup_2ac1931908aa1083e6cdf800ded44c1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_442227ee61456e079fae3b8fa87980bd = $(`<div id="html_442227ee61456e079fae3b8fa87980bd" style="width: 100.0%; height: 100.0%;">Servatur Casablanca Suites & Spa </div>`)[0];
+                popup_2ac1931908aa1083e6cdf800ded44c1e.setContent(html_442227ee61456e079fae3b8fa87980bd);
+            
+        
+
+        marker_bb69cd7651f335ad5fab01f957f06a59.bindPopup(popup_2ac1931908aa1083e6cdf800ded44c1e)
+        ;
+
+        
+    
+    
+            marker_bb69cd7651f335ad5fab01f957f06a59.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4602913e0beca6afb8946c538a1c0355 = L.marker(
+                [27.79461088410923, -15.718995250944438],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_58307c71cd0c25cbc97072789681d00c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_4602913e0beca6afb8946c538a1c0355.setIcon(icon_58307c71cd0c25cbc97072789681d00c);
+        
+    
+        var popup_780457cc4673a7293741a9c98c4a7ca7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ef005f638bef2932129942db3b93a33 = $(`<div id="html_0ef005f638bef2932129942db3b93a33" style="width: 100.0%; height: 100.0%;">Hotel Altamadores </div>`)[0];
+                popup_780457cc4673a7293741a9c98c4a7ca7.setContent(html_0ef005f638bef2932129942db3b93a33);
+            
+        
+
+        marker_4602913e0beca6afb8946c538a1c0355.bindPopup(popup_780457cc4673a7293741a9c98c4a7ca7)
+        ;
+
+        
+    
+    
+            marker_4602913e0beca6afb8946c538a1c0355.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f01a544acf57a27e5e959256d4a2ba58 = L.marker(
+                [27.817129269764823, -15.752797562600348],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_e737d4eb843a3ec92bc4238db851fab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_f01a544acf57a27e5e959256d4a2ba58.setIcon(icon_e737d4eb843a3ec92bc4238db851fab0);
+        
+    
+        var popup_ffe756b26911dbcd46974d5a14cf8669 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c20ece9548be28e07310da74093876c = $(`<div id="html_1c20ece9548be28e07310da74093876c" style="width: 100.0%; height: 100.0%;">Hotel LIVVO Valle Taurito & Aquapark </div>`)[0];
+                popup_ffe756b26911dbcd46974d5a14cf8669.setContent(html_1c20ece9548be28e07310da74093876c);
+            
+        
+
+        marker_f01a544acf57a27e5e959256d4a2ba58.bindPopup(popup_ffe756b26911dbcd46974d5a14cf8669)
+        ;
+
+        
+    
+    
+            marker_f01a544acf57a27e5e959256d4a2ba58.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_700ae45e442aa381820ddfb5e4154118 = L.marker(
+                [27.814547663789565, -15.75189004910804],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_10d42cec432a595c567c90d16ec13f7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_700ae45e442aa381820ddfb5e4154118.setIcon(icon_10d42cec432a595c567c90d16ec13f7d);
+        
+    
+        var popup_bc5bcb77f741aa8d76deacb456476f5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f07483ba8139691570925efc6604f05d = $(`<div id="html_f07483ba8139691570925efc6604f05d" style="width: 100.0%; height: 100.0%;">TUI BLUE Suite Princess </div>`)[0];
+                popup_bc5bcb77f741aa8d76deacb456476f5c.setContent(html_f07483ba8139691570925efc6604f05d);
+            
+        
+
+        marker_700ae45e442aa381820ddfb5e4154118.bindPopup(popup_bc5bcb77f741aa8d76deacb456476f5c)
+        ;
+
+        
+    
+    
+            marker_700ae45e442aa381820ddfb5e4154118.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ba90c51008445f279e51c894e92259d = L.marker(
+                [27.751099811564504, -15.572537879791552],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_cf8dfeef69860a7529f0107da53058b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_9ba90c51008445f279e51c894e92259d.setIcon(icon_cf8dfeef69860a7529f0107da53058b4);
+        
+    
+        var popup_84b6cac350e51b25ed708bda56b15538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65e21bb9bd79d1e8c10484954a9c18d6 = $(`<div id="html_65e21bb9bd79d1e8c10484954a9c18d6" style="width: 100.0%; height: 100.0%;">Santa Monica Suites Hotel </div>`)[0];
+                popup_84b6cac350e51b25ed708bda56b15538.setContent(html_65e21bb9bd79d1e8c10484954a9c18d6);
+            
+        
+
+        marker_9ba90c51008445f279e51c894e92259d.bindPopup(popup_84b6cac350e51b25ed708bda56b15538)
+        ;
+
+        
+    
+    
+            marker_9ba90c51008445f279e51c894e92259d.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbc9d562e929008aeec92b21a3bd8223 = L.marker(
+                [28.14402692698179, -15.431142506783777],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_4b3db3135d1ba2faebdd8576ae92e113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_cbc9d562e929008aeec92b21a3bd8223.setIcon(icon_4b3db3135d1ba2faebdd8576ae92e113);
+        
+    
+        var popup_eec02f5502ceb0a4fbd7ba7d60eea2fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11931a5b8946be809eb7ca4ebeece1cc = $(`<div id="html_11931a5b8946be809eb7ca4ebeece1cc" style="width: 100.0%; height: 100.0%;">Exe Las Palmas </div>`)[0];
+                popup_eec02f5502ceb0a4fbd7ba7d60eea2fd.setContent(html_11931a5b8946be809eb7ca4ebeece1cc);
+            
+        
+
+        marker_cbc9d562e929008aeec92b21a3bd8223.bindPopup(popup_eec02f5502ceb0a4fbd7ba7d60eea2fd)
+        ;
+
+        
+    
+    
+            marker_cbc9d562e929008aeec92b21a3bd8223.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_668f289d73a38e1857af0d29ec6411cb = L.marker(
+                [27.840937339095845, -15.441000722123407],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_b059bcf29810910a98b5e818d31b2f58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_668f289d73a38e1857af0d29ec6411cb.setIcon(icon_b059bcf29810910a98b5e818d31b2f58);
+        
+    
+        var popup_38a5779a04882b00fc1303634bdd3ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee3a714f0604a5befe101c88096ab69e = $(`<div id="html_ee3a714f0604a5befe101c88096ab69e" style="width: 100.0%; height: 100.0%;">Elba Vecindario Aeropuerto Business & Convention Hotel </div>`)[0];
+                popup_38a5779a04882b00fc1303634bdd3ec8.setContent(html_ee3a714f0604a5befe101c88096ab69e);
+            
+        
+
+        marker_668f289d73a38e1857af0d29ec6411cb.bindPopup(popup_38a5779a04882b00fc1303634bdd3ec8)
+        ;
+
+        
+    
+    
+            marker_668f289d73a38e1857af0d29ec6411cb.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bc72ae9aa8ee84849a8f5b29eb18b18 = L.marker(
+                [28.106588690582797, -15.707756766305671],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c336759569e48e7bbb46a6f40655b9de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_1bc72ae9aa8ee84849a8f5b29eb18b18.setIcon(icon_c336759569e48e7bbb46a6f40655b9de);
+        
+    
+        var popup_c9daef8e66e4eddb12904114b53758a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1707a401a2fc2f1d0400760647a452f5 = $(`<div id="html_1707a401a2fc2f1d0400760647a452f5" style="width: 100.0%; height: 100.0%;">Occidental Roca Negra </div>`)[0];
+                popup_c9daef8e66e4eddb12904114b53758a8.setContent(html_1707a401a2fc2f1d0400760647a452f5);
+            
+        
+
+        marker_1bc72ae9aa8ee84849a8f5b29eb18b18.bindPopup(popup_c9daef8e66e4eddb12904114b53758a8)
+        ;
+
+        
+    
+    
+            marker_1bc72ae9aa8ee84849a8f5b29eb18b18.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_826141d652162a83bdd00996b88c1887 = L.marker(
+                [27.756045759257347, -15.56890669512243],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_a97e3b3b03864899551902fc6642b56d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_826141d652162a83bdd00996b88c1887.setIcon(icon_a97e3b3b03864899551902fc6642b56d);
+        
+    
+        var popup_86db864cec0611f04b744d4080f6f302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0d13de25cfd2dd308c63b0b6bfa979e = $(`<div id="html_a0d13de25cfd2dd308c63b0b6bfa979e" style="width: 100.0%; height: 100.0%;">Hotel Sahara Playa </div>`)[0];
+                popup_86db864cec0611f04b744d4080f6f302.setContent(html_a0d13de25cfd2dd308c63b0b6bfa979e);
+            
+        
+
+        marker_826141d652162a83bdd00996b88c1887.bindPopup(popup_86db864cec0611f04b744d4080f6f302)
+        ;
+
+        
+    
+    
+            marker_826141d652162a83bdd00996b88c1887.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a36d5a46e31731cf4396325f0116809 = L.marker(
+                [27.758157066259447, -15.570382293272644],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_cd82ba978bc73713e2be9794a336d9f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0a36d5a46e31731cf4396325f0116809.setIcon(icon_cd82ba978bc73713e2be9794a336d9f3);
+        
+    
+        var popup_e0498ffcd73fd2840eb289ede00d6244 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_951ece146e455aa8e0cd60503ef303d9 = $(`<div id="html_951ece146e455aa8e0cd60503ef303d9" style="width: 100.0%; height: 100.0%;">Seaside Sandy Beach </div>`)[0];
+                popup_e0498ffcd73fd2840eb289ede00d6244.setContent(html_951ece146e455aa8e0cd60503ef303d9);
+            
+        
+
+        marker_0a36d5a46e31731cf4396325f0116809.bindPopup(popup_e0498ffcd73fd2840eb289ede00d6244)
+        ;
+
+        
+    
+    
+            marker_0a36d5a46e31731cf4396325f0116809.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f2eb9daa79851bcb53ed1f58ad9f95f = L.marker(
+                [27.752396493722248, -15.59766925093916],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_ee5db39b568a9130bbeb2fd9aceedbd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_8f2eb9daa79851bcb53ed1f58ad9f95f.setIcon(icon_ee5db39b568a9130bbeb2fd9aceedbd6);
+        
+    
+        var popup_50f5052792b453d0af5d109fd23e5374 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c38f51b0dae86f16c9e601a2fe4e63b = $(`<div id="html_1c38f51b0dae86f16c9e601a2fe4e63b" style="width: 100.0%; height: 100.0%;">Maspalomas Princess </div>`)[0];
+                popup_50f5052792b453d0af5d109fd23e5374.setContent(html_1c38f51b0dae86f16c9e601a2fe4e63b);
+            
+        
+
+        marker_8f2eb9daa79851bcb53ed1f58ad9f95f.bindPopup(popup_50f5052792b453d0af5d109fd23e5374)
+        ;
+
+        
+    
+    
+            marker_8f2eb9daa79851bcb53ed1f58ad9f95f.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89a990373ebe4d8bd74b3e28d3a86cc2 = L.marker(
+                [27.752367593782665, -15.596720222108015],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_f61bd90835453de1c4df20a6da25f0b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_89a990373ebe4d8bd74b3e28d3a86cc2.setIcon(icon_f61bd90835453de1c4df20a6da25f0b6);
+        
+    
+        var popup_7651e2c1fc51114c48e16ce170e825d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb22ffd0045c72d29d08eb5996604e36 = $(`<div id="html_bb22ffd0045c72d29d08eb5996604e36" style="width: 100.0%; height: 100.0%;">Tabaiba Princess </div>`)[0];
+                popup_7651e2c1fc51114c48e16ce170e825d7.setContent(html_bb22ffd0045c72d29d08eb5996604e36);
+            
+        
+
+        marker_89a990373ebe4d8bd74b3e28d3a86cc2.bindPopup(popup_7651e2c1fc51114c48e16ce170e825d7)
+        ;
+
+        
+    
+    
+            marker_89a990373ebe4d8bd74b3e28d3a86cc2.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4dd890001d6dc995667ce793184a28d = L.marker(
+                [27.82308014737221, -15.759982462586155],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_a7380b31dec48da1e369a48e9ff069b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_c4dd890001d6dc995667ce793184a28d.setIcon(icon_a7380b31dec48da1e369a48e9ff069b1);
+        
+    
+        var popup_109275214d32fa85527e02765738cc17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29db3d374531882c013b17fe861e69c2 = $(`<div id="html_29db3d374531882c013b17fe861e69c2" style="width: 100.0%; height: 100.0%;">HOTEL CORDIAL MOGAN PLAYA</div>`)[0];
+                popup_109275214d32fa85527e02765738cc17.setContent(html_29db3d374531882c013b17fe861e69c2);
+            
+        
+
+        marker_c4dd890001d6dc995667ce793184a28d.bindPopup(popup_109275214d32fa85527e02765738cc17)
+        ;
+
+        
+    
+    
+            marker_c4dd890001d6dc995667ce793184a28d.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d03c2167ce494ace12b43e9552ef4296 = L.marker(
+                [27.760610879397312, -15.579315393278264],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_742b98c121b95ce966340f1b77593478 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_d03c2167ce494ace12b43e9552ef4296.setIcon(icon_742b98c121b95ce966340f1b77593478);
+        
+    
+        var popup_ea8e31274a7086c9b91fef17ba34554a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_498af4208c1a49c1cfed94234b8960f5 = $(`<div id="html_498af4208c1a49c1cfed94234b8960f5" style="width: 100.0%; height: 100.0%;">SOL BARBACAN</div>`)[0];
+                popup_ea8e31274a7086c9b91fef17ba34554a.setContent(html_498af4208c1a49c1cfed94234b8960f5);
+            
+        
+
+        marker_d03c2167ce494ace12b43e9552ef4296.bindPopup(popup_ea8e31274a7086c9b91fef17ba34554a)
+        ;
+
+        
+    
+    
+            marker_d03c2167ce494ace12b43e9552ef4296.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e277ca1fa9b2fc733f3573e647bb3b6 = L.marker(
+                [27.807809036789084, -15.703823252792215],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_c745dcc172ff1360e4abcff0da43af48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_0e277ca1fa9b2fc733f3573e647bb3b6.setIcon(icon_c745dcc172ff1360e4abcff0da43af48);
+        
+    
+        var popup_9165cabefefd730b28e9e086f12c66c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_360fb7326440889ca5e0fb8448fd35fc = $(`<div id="html_360fb7326440889ca5e0fb8448fd35fc" style="width: 100.0%; height: 100.0%;">MARINA SUITES GRAN CANARIA</div>`)[0];
+                popup_9165cabefefd730b28e9e086f12c66c0.setContent(html_360fb7326440889ca5e0fb8448fd35fc);
+            
+        
+
+        marker_0e277ca1fa9b2fc733f3573e647bb3b6.bindPopup(popup_9165cabefefd730b28e9e086f12c66c0)
+        ;
+
+        
+    
+    
+            marker_0e277ca1fa9b2fc733f3573e647bb3b6.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_513a9b03fab18983ae5922d2c4cf03ed = L.marker(
+                [27.78238356518333, -15.709023010480173],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_76229303ae6fa91ef58c0cf50ad501a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_513a9b03fab18983ae5922d2c4cf03ed.setIcon(icon_76229303ae6fa91ef58c0cf50ad501a6);
+        
+    
+        var popup_7ed171be599f909c24866ccd71e9ef89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_769fed225a03fa2288fb4082784dfa46 = $(`<div id="html_769fed225a03fa2288fb4082784dfa46" style="width: 100.0%; height: 100.0%;">MORASOL SUITES</div>`)[0];
+                popup_7ed171be599f909c24866ccd71e9ef89.setContent(html_769fed225a03fa2288fb4082784dfa46);
+            
+        
+
+        marker_513a9b03fab18983ae5922d2c4cf03ed.bindPopup(popup_7ed171be599f909c24866ccd71e9ef89)
+        ;
+
+        
+    
+    
+            marker_513a9b03fab18983ae5922d2c4cf03ed.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_182c140100c16464bc61d75698094b1c = L.marker(
+                [27.740914088866024, -15.599970286569592],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_3bd2dbd742e863a47d54a161a9f938e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_182c140100c16464bc61d75698094b1c.setIcon(icon_3bd2dbd742e863a47d54a161a9f938e3);
+        
+    
+        var popup_4d3afa8d1df3e3aa9164fd9eb9b70857 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d723267987524ec97aeb9c3188ad18a0 = $(`<div id="html_d723267987524ec97aeb9c3188ad18a0" style="width: 100.0%; height: 100.0%;">Lopesan Baobab Resort</div>`)[0];
+                popup_4d3afa8d1df3e3aa9164fd9eb9b70857.setContent(html_d723267987524ec97aeb9c3188ad18a0);
+            
+        
+
+        marker_182c140100c16464bc61d75698094b1c.bindPopup(popup_4d3afa8d1df3e3aa9164fd9eb9b70857)
+        ;
+
+        
+    
+    
+            marker_182c140100c16464bc61d75698094b1c.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51580924255715fef9195df22fac4369 = L.marker(
+                [27.7378237913418, -15.599954214217483],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_4090973564b3e044fd559289a8888584 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_51580924255715fef9195df22fac4369.setIcon(icon_4090973564b3e044fd559289a8888584);
+        
+    
+        var popup_002f64a7bc0e3037163b8e595205604f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17ed5fd1c8fcd3e2e2243aedb37a1b56 = $(`<div id="html_17ed5fd1c8fcd3e2e2243aedb37a1b56" style="width: 100.0%; height: 100.0%;">Lopesan Costa Meloneras</div>`)[0];
+                popup_002f64a7bc0e3037163b8e595205604f.setContent(html_17ed5fd1c8fcd3e2e2243aedb37a1b56);
+            
+        
+
+        marker_51580924255715fef9195df22fac4369.bindPopup(popup_002f64a7bc0e3037163b8e595205604f)
+        ;
+
+        
+    
+    
+            marker_51580924255715fef9195df22fac4369.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db4d03963114ab435c5b3ecd3b7b2eb5 = L.marker(
+                [27.742285342249573, -15.606497229599753],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_31a5f74f3a7fe87f5848f8c0dfed8ea5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_db4d03963114ab435c5b3ecd3b7b2eb5.setIcon(icon_31a5f74f3a7fe87f5848f8c0dfed8ea5);
+        
+    
+        var popup_06bb3a9277c06cf82b3d9000de8ad66e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd14a9a05fce6ca38fca0a1fd52646bb = $(`<div id="html_cd14a9a05fce6ca38fca0a1fd52646bb" style="width: 100.0%; height: 100.0%;">Lopesan Villa del Conde</div>`)[0];
+                popup_06bb3a9277c06cf82b3d9000de8ad66e.setContent(html_cd14a9a05fce6ca38fca0a1fd52646bb);
+            
+        
+
+        marker_db4d03963114ab435c5b3ecd3b7b2eb5.bindPopup(popup_06bb3a9277c06cf82b3d9000de8ad66e)
+        ;
+
+        
+    
+    
+            marker_db4d03963114ab435c5b3ecd3b7b2eb5.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d0adab53ea0178b452a3bf3c27ba656 = L.marker(
+                [27.735632630074686, -15.598095275287873],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_10641dd4c7c9b705aecc6e8e15b9a2ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_9d0adab53ea0178b452a3bf3c27ba656.setIcon(icon_10641dd4c7c9b705aecc6e8e15b9a2ff);
+        
+    
+        var popup_675a0d67fac84a5d4496145a86c0bf9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_846d85a27e40ed95469acb6531e6fbe6 = $(`<div id="html_846d85a27e40ed95469acb6531e6fbe6" style="width: 100.0%; height: 100.0%;">Hotel Faro, a Lopesan Collection Hotel</div>`)[0];
+                popup_675a0d67fac84a5d4496145a86c0bf9d.setContent(html_846d85a27e40ed95469acb6531e6fbe6);
+            
+        
+
+        marker_9d0adab53ea0178b452a3bf3c27ba656.bindPopup(popup_675a0d67fac84a5d4496145a86c0bf9d)
+        ;
+
+        
+    
+    
+            marker_9d0adab53ea0178b452a3bf3c27ba656.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26f1fcf28697391601ce6f20b32c5db8 = L.marker(
+                [27.757088699268063, -15.568268844577666],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_9ea8cfd9150b7e3247d548ef9e6a7f9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_26f1fcf28697391601ce6f20b32c5db8.setIcon(icon_9ea8cfd9150b7e3247d548ef9e6a7f9e);
+        
+    
+        var popup_cba718caf367a6976a14c30da93de8c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1648758700a98c36ed32c9518c50177b = $(`<div id="html_1648758700a98c36ed32c9518c50177b" style="width: 100.0%; height: 100.0%;">Corallium Dunamar by Lopesan Hotels</div>`)[0];
+                popup_cba718caf367a6976a14c30da93de8c1.setContent(html_1648758700a98c36ed32c9518c50177b);
+            
+        
+
+        marker_26f1fcf28697391601ce6f20b32c5db8.bindPopup(popup_cba718caf367a6976a14c30da93de8c1)
+        ;
+
+        
+    
+    
+            marker_26f1fcf28697391601ce6f20b32c5db8.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0ace323a63a840b308da72547b34e57 = L.marker(
+                [27.772002315793515, -15.54078972421962],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_80807a93b8a78c5a69047d2c9708190e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_b0ace323a63a840b308da72547b34e57.setIcon(icon_80807a93b8a78c5a69047d2c9708190e);
+        
+    
+        var popup_091e5dc596e044f5d8038f4eb4b26c7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c00547490eb460867719e7284e7ad9e = $(`<div id="html_1c00547490eb460867719e7284e7ad9e" style="width: 100.0%; height: 100.0%;">Corallium Beach by Lopesan Hotels</div>`)[0];
+                popup_091e5dc596e044f5d8038f4eb4b26c7d.setContent(html_1c00547490eb460867719e7284e7ad9e);
+            
+        
+
+        marker_b0ace323a63a840b308da72547b34e57.bindPopup(popup_091e5dc596e044f5d8038f4eb4b26c7d)
+        ;
+
+        
+    
+    
+            marker_b0ace323a63a840b308da72547b34e57.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ae87d65c2fe1455715fdcc26eb8ea58 = L.marker(
+                [27.76431307886298, -15.561530719778053],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_fcdda4d06c21ad5c8c8018470d71c2c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5ae87d65c2fe1455715fdcc26eb8ea58.setIcon(icon_fcdda4d06c21ad5c8c8018470d71c2c5);
+        
+    
+        var popup_fb378da432c6343e9cf3b86be6e13255 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35d3f670d58ae65a6a1dba0e20433523 = $(`<div id="html_35d3f670d58ae65a6a1dba0e20433523" style="width: 100.0%; height: 100.0%;">Abora Continental</div>`)[0];
+                popup_fb378da432c6343e9cf3b86be6e13255.setContent(html_35d3f670d58ae65a6a1dba0e20433523);
+            
+        
+
+        marker_5ae87d65c2fe1455715fdcc26eb8ea58.bindPopup(popup_fb378da432c6343e9cf3b86be6e13255)
+        ;
+
+        
+    
+    
+            marker_5ae87d65c2fe1455715fdcc26eb8ea58.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2204986b55792e7d14524dd884bf18de = L.marker(
+                [27.749087164694803, -15.577035631692292],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_6ce277b0626e1ea3ea1cd3fff65ccdad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_2204986b55792e7d14524dd884bf18de.setIcon(icon_6ce277b0626e1ea3ea1cd3fff65ccdad);
+        
+    
+        var popup_ccc10d9748d381fb3eec3d7798f9392b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_460346fb229727b715287687a4f0969d = $(`<div id="html_460346fb229727b715287687a4f0969d" style="width: 100.0%; height: 100.0%;">Abora Catarina</div>`)[0];
+                popup_ccc10d9748d381fb3eec3d7798f9392b.setContent(html_460346fb229727b715287687a4f0969d);
+            
+        
+
+        marker_2204986b55792e7d14524dd884bf18de.bindPopup(popup_ccc10d9748d381fb3eec3d7798f9392b)
+        ;
+
+        
+    
+    
+            marker_2204986b55792e7d14524dd884bf18de.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5afa18e48e786c0499360576e8d70f3a = L.marker(
+                [27.763899715260823, -15.56830271503907],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_fb9191aa538e65c7235ce0c1be788b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_5afa18e48e786c0499360576e8d70f3a.setIcon(icon_fb9191aa538e65c7235ce0c1be788b77);
+        
+    
+        var popup_f2b094048810f36aead56919b24a98a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d0e56d9741975f4e0d3e864ecdadfdf = $(`<div id="html_4d0e56d9741975f4e0d3e864ecdadfdf" style="width: 100.0%; height: 100.0%;">Abora Buenaventura</div>`)[0];
+                popup_f2b094048810f36aead56919b24a98a8.setContent(html_4d0e56d9741975f4e0d3e864ecdadfdf);
+            
+        
+
+        marker_5afa18e48e786c0499360576e8d70f3a.bindPopup(popup_f2b094048810f36aead56919b24a98a8)
+        ;
+
+        
+    
+    
+            marker_5afa18e48e786c0499360576e8d70f3a.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f1de0753953339ab37bfd213690ce9e = L.marker(
+                [27.771302336112075, -15.53452309234598],
+                {}
+            ).addTo(map_3987d4246562c439fabcf308ec651e2a);
+        
+    
+            var icon_cce68326d0fb538d66d9e5a7f15802aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "yellow", "prefix": "glyphicon"}
+            );
+            marker_3f1de0753953339ab37bfd213690ce9e.setIcon(icon_cce68326d0fb538d66d9e5a7f15802aa);
+        
+    
+        var popup_026e226ec977e9cea03ef82d680ba69b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17cf2dc907eec60aaa7b316a2fb0086b = $(`<div id="html_17cf2dc907eec60aaa7b316a2fb0086b" style="width: 100.0%; height: 100.0%;">Abora Interclub Atlantic</div>`)[0];
+                popup_026e226ec977e9cea03ef82d680ba69b.setContent(html_17cf2dc907eec60aaa7b316a2fb0086b);
+            
+        
+
+        marker_3f1de0753953339ab37bfd213690ce9e.bindPopup(popup_026e226ec977e9cea03ef82d680ba69b)
+        ;
+
+        
+    
+    
+            marker_3f1de0753953339ab37bfd213690ce9e.bindTooltip(
+                `<div>
+                     Haz clic para más información
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
